@@ -2,7 +2,7 @@
 :root{
     --main-color:hsl(33, 74%, 63%);
     --black:#13131a;
-    --bg:#010103;
+    --bg:white;
     --border: .1rem solid rgba(255,255,255,.3);
 }
 
@@ -64,7 +64,7 @@ section{
     padding: .9rem 3rem;
     font-size: 1.7rem;
     color: #fff;
-    background: var(--main-color);
+    background: blue;
     /* background: --main-color; */
     cursor: pointer;
 }
@@ -88,7 +88,7 @@ section{
 }
 
 .header .logo img{
-    height: 6rem;
+    height: 14rem;
 }
 
 
@@ -96,7 +96,7 @@ section{
 .header .navbar a{
     margin: 0 1rem;
     font-size: 1.6rem;
-    color: #fff;
+    color: blue;
 }
 
 .header .navbar a:hover{
@@ -106,7 +106,7 @@ section{
 }
 
 .header .icons div{
-    color: #fff;
+    color: blue;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
