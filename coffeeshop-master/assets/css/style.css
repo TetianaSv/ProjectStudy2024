@@ -64,7 +64,7 @@ section{
     padding: .9rem 3rem;
     font-size: 1.7rem;
     color: #fff;
-    background: blue;
+    background: #16487d;
     /* background: --main-color; */
     cursor: pointer;
 }
@@ -78,7 +78,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 7%;
+    padding: 0.5rem 7%;
     border-bottom: var(--border);
     position: fixed;
     top: 0;
@@ -96,7 +96,9 @@ section{
 .header .navbar a{
     margin: 0 1rem;
     font-size: 1.6rem;
-    color: blue;
+    color: #16487d;
+    font-weight: bold;
+
 }
 
 .header .navbar a:hover{
@@ -106,14 +108,14 @@ section{
 }
 
 .header .icons div{
-    color: blue;
+    color: #16487d;
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
 }
 
 .header .icons div:hover{
-    color: var(--main-color);
+    color: #16487d;
 }
 
 #menu-btn{
@@ -296,23 +298,23 @@ section{
 }
 
 .menu .box-container .box .price{
-    color: #fff;
+    color: orange;
     font-size: 2.5rem;
     padding: 5rem 0;
 }
 
 .menu .box-container .box .price span{
-    color: var(--main-color);
+    color: #16487d;
     font-size: 1.5rem;
     text-decoration: line-through;
 }
 
 .menu .box-container .box:hover{
-    background: #fff;
+    background: #b9c8d8;
 }
 
 .menu .box-container .box:hover> *{
-    color: var(--black);
+    color: white;
 }
 
 .products .box-container{
@@ -584,14 +586,6 @@ section{
 
 
 
-
-
-
-
-
-
-
-
 /* media query */
 
 @media (max-width:991px) {
@@ -633,7 +627,7 @@ section{
         margin: 1.5rem;
         padding: .5rem;
         font-size: 2rem;
-        /* background: #fff; */
+        font-weight: bold;
     }
 
     .header .search-form{
